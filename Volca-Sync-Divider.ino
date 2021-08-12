@@ -1,5 +1,4 @@
-  //o    O O  VOLCA SYNC DIVIDER        o|   
- //|                           (O)  000  | 
+  //o  O O  VOLCA SYNC DIVIDER  (O) 000 o|
 ///|   (O)  x   o   o   o     o o o o    |
 ///|        o   o   x   x     = = = =    |
 ///|   (O)  o   o   x   o                |
