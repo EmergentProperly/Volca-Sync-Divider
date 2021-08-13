@@ -6,7 +6,7 @@ The arduino sends SYNC OUT signals every X-amount of SYNC IN signals. The defaul
 
 To expand on the project, an extra toggle switch or momentary switch/button could be added for switching between different pulse frequencies.
 
-Two LEDs provide a visual aid for timing. Triggering play on the Volca(s) when both LEDs flash together ensures all volcas will be in sync. The default code has both LEDs ON every 8 pulses. Slave Volcas will trigger on the slower, divided steps. 
+Two LEDs provide a visual aid for timing. Triggering play on the Volca(s) when both LEDs flash together ensures all Volcas will be in sync. The default code has both LEDs ON every 8 pulses. Slave Volcas will trigger on the slower, divided steps. 
 
 See troubleshooting section below if your Volcas are syncing unpredictably.
 
@@ -21,7 +21,7 @@ This example uses the Arduino Nano. It was also tested on the Pro Micro, and sho
 
 The Volca Keys has a touchy Sync-In. Setting the volume low helps to resolve the problem. A ground loop isolator added to the audio-out eliminates the problem entirely. 
 
-Syncing the Volcas at very low BPM (i.e. master sync <50BPM-100BPM with sync outs set to 1/16) can produce unexpected syncopation. Although initially this may be undesirable, it can actually produce pleasing results with a bit of experimenting and tweaking.
+Syncing the Volcas at very low BPM (i.e. master sync <50BPM-100BPM with sync-outs set to 1/16) can produce unexpected syncopation. Although initially this may be undesirable, it can actually produce pleasing results with a bit of experimenting.
 
 DISCLAIMER: 
 1) Due to the quirkiness of individual Volcas, your mileage may vary. 
