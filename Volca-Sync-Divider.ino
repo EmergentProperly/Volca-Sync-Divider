@@ -82,7 +82,7 @@ void loop() {
   }
     
  
-  // Comment Block 1 and uncomment Block 2-3 together for a different variation. Experiment with "% x == 0" to your hearts content. 
+  // Comment Block 1 and uncomment Block 2-3 together for a different variation. Experiment with "(inputCounter % x == 0)" to your hearts content. 
 
   // Block 1
   // Divided SYNC OUT pulses are sent. LEDs light up on divided pulses
