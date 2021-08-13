@@ -1,13 +1,14 @@
 # Volca-Sync-Divider
 
-An Arduino driven Korg Volca sync divider. A simple "hack" to add some versatility to the Volcas.
-The arduino recieves a sync pulse from a volca, and outputs 2 or more pulses at a lower BPM while remaining in time with the source sync. 
+An Arduino driven Korg Volca sync divider. A simple "hack" to add some versatility to the Volcas. This was put together and tested with an Arduino Nano, Arduino Pro Micro, Volca Beats, Volca Keys and Volca Bass. The Volca Beats was the master sync in this project, although any Volca should work. 
+
+The arduino recieves a sync pulse from a volca, and outputs 2 or more pulses at a lower BPM while remaining in time with the master sync. 
+
 
 Two LEDs provide a visual aid for timing. 
-NOTE: it is important to trigger the master Volca when both LEDs are ON. The default code has both LEDs ON every 8 pulses.
+NOTE: Triggering play on the master Volca, when both LEDs flash together, ensures all volcas will sync. The default code has both LEDs ON every 8 pulses.
+Slave Volcas will trigger on their lower frequency, divided steps. 
 
-This was put together and tested with an Arduino Nano, Arduino Pro Micro, Volca Beats, Volca Keys and Volca Bass. The Volca Beats was the master sync. 
-  
 DISCLAIMER: Due to the quirkiness of Volcas, your mileage may vary.
 
 ## Schematic
