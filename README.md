@@ -21,4 +21,4 @@ The Volca Keys has a touchy Sync-In. Setting the volume low helps to resolve the
 
 Syncing the Volcas at very low BPM (i.e. master sync <50BPM-100BPM with sync outs set to 1/16) can produce unexpected syncopation. Although initially this may be undesirable, it can actually produce pleasing results with a bit of experimenting and tweaking.
 
-DISCLAIMER: Due to the quirkiness of individual Volcas, your mileage may vary. Although this project is "mostly harmless", I ought to mention, you do this at your own risk. I am not responsible for any damage you do to yourself or your Volcas.
+DISCLAIMER: Due to the quirkiness of individual Volcas, your mileage may vary. Although this project is mostly harmless, it needs to be mentioned: you do this at your own risk. I am not responsible for any damage you do to yourself or your Volcas.
