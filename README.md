@@ -1,6 +1,6 @@
 # Volca-Sync-Divider
 
-An Arduino driven Korg Volca sync divider. It's basically a simple "hack" to add some versatility to the Volcas.
+An Arduino driven Korg Volca sync divider. A simple "hack" to add some versatility to the Volcas.
 The arduino recieves a sync pulse from a volca, and outputs 2 or more pulses at a lower BPM while remaining in time with the source sync. 
 
 Two LEDs provide a visual aid for timing. 
