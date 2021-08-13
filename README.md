@@ -2,7 +2,7 @@
 
 An Arduino driven Korg Volca sync divider. A simple project to add some versatility to the Volcas. This was put together and tested with an Arduino Nano, Arduino Pro Micro, Volca Beats, Volca Keys and Volca Bass. The Volca Beats was the master sync in this project, although any Volca should work. 
 
-The arduino sends SYNC OUT signals every X-amount of SYNC IN signals. The default setting has both outputs at 1/16th speed of the master sync (not to be confused with 16th steps). The numbers can be adjusted in the code. 
+The arduino sends SYNC OUT signals every X-amount of SYNC IN signals. The default setting has both outputs at 1/16th speed of the master sync, or once every 16 steps. The numbers can be adjusted in the code. 
 
 To expand on the project, an extra toggle switch or momentary switch/button could be added for switching between different pulse frequencies.
 
