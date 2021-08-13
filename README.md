@@ -6,7 +6,7 @@ The arduino recieves a sync pulse from a volca, and outputs 2 or more pulses at 
 
 
 Two LEDs provide a visual aid for timing. 
-NOTE: Triggering play on the master Volca, when both LEDs flash together, ensures all volcas will sync. The default code has both LEDs ON every 8 pulses.
+NOTE: Triggering play on the Volca(s), when both LEDs flash together, ensures all volcas will sync. The default code has both LEDs ON every 8 pulses.
 Slave Volcas will trigger on the slower, divided steps. 
 
 
