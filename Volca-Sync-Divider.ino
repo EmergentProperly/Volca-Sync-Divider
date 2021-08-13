@@ -14,14 +14,14 @@
   An Arduino driven Korg Volca sync divider. The arduino recieves a sync pulse from a volca, and outputs 2 or more 
   pulses at a lower BPM while remaining in time. 
   
-  Put together and tested with an Arduino Nano, Arduino Pro Micro, Volca Beats, Volca Keys and Volca Bass. The Volca Beats was the main sync out. 
+  Put together and tested with an Arduino Nano, Arduino Pro Micro, Volca Beats, Volca Keys and Volca Bass. The Volca Beats was the master sync. 
   
   DISCLAIMER: Due to the quirkiness of Volcas, your mileage may vary.
 */
 
 
 
-// Sync in/out pins for the Volcas. Add additional output pins if you have more than 3 volcas in your project.
+// Sync in/out pins for the Volcas. Add additional outputs if you have more than 3 volcas in your project.
 const int  input1 = 3;    
 const int output1 = 8;      
 const int output2 = 9;
@@ -33,7 +33,8 @@ const int LED2 = 6;
 int inputCounter = 0;   // counter for the number of sync pulses
 int inputState = 0;         // current state of the sync input
 int lastinputState = 0;     // previous state of the sync input
-unsigned long start_time = millis ();
+
+unsigned long start_time = millis (); // for closing the pulses at the correct time
 
 void setup() {
   // initialize pin 3 as input:
@@ -81,7 +82,7 @@ void loop() {
   }
     
  
-  // Comment Block 1 and uncomment Block 2 and 3 together for a different variation. Experiment with "% x" to your hearts content. 
+  // Comment Block 1 and uncomment Block 2-3 together for a different variation. Experiment with "% x" to your hearts content. 
 
   // Block 1
   // Divided SYNC OUT pulses are sent. LEDs light up on divided pulses
