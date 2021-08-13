@@ -14,6 +14,8 @@ See troubleshooting section below if your Volcas are syncing unpredictably.
 
 ## Schematic
 
+This example uses the Arduino Nano, although it was also tested on the Pro Micro. It should work with any Arduino.
+
 ![alt text](https://github.com/EmergentProperly/Volca-Sync-Divider/blob/main/Volca-Sync-Divider-Schematic.png)
 
 
