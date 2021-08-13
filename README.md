@@ -1,6 +1,6 @@
 # Volca-Sync-Divider
 
-An Arduino driven Korg Volca sync divider. A simple "hack" to add some versatility to the Volcas. This was put together and tested with an Arduino Nano, Arduino Pro Micro, Volca Beats, Volca Keys and Volca Bass. The Volca Beats was the master sync in this project, although any Volca should work. 
+An Arduino driven Korg Volca sync divider. A simple project to add some versatility to the Volcas. This was put together and tested with an Arduino Nano, Arduino Pro Micro, Volca Beats, Volca Keys and Volca Bass. The Volca Beats was the master sync in this project, although any Volca should work. 
 
 The arduino sends SYNC OUT signals every X-amount of SYNC IN signals. The default setting is both outputs are 1/16th speed of the original time (not to be confused with 16th steps). The numbers can be adjusted in the code. 
 
