@@ -7,3 +7,4 @@ Put together and tested with an Arduino Nano, Arduino Pro Micro, Volca Beats, Vo
   
 DISCLAIMER: Due to the quirkiness of Volcas, your mileage may vary.
 
+![alt text](https://github.com/EmergentProperly/Volca-Sync-Divider/blob/main/Volca-Sync-Divider-Schematic.png)
