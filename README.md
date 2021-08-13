@@ -6,9 +6,7 @@ The arduino sends SYNC OUT signals every X-amount of SYNC IN signals. The defaul
 
 To expand on the project, an extra toggle switch or momentary switch/button could be added for switching between different pulse frequencies.
 
-Two LEDs provide a visual aid for timing. 
-NOTE: Triggering play on the Volca(s), when both LEDs flash together, ensures all volcas will sync. The default code has both LEDs ON every 8 pulses.
-Slave Volcas will trigger on the slower, divided steps. 
+Two LEDs provide a visual aid for timing. Triggering play on the Volca(s), when both LEDs flash together, ensures all volcas will sync. The default code has both LEDs ON every 8 pulses. Slave Volcas will trigger on the slower, divided steps. 
 
 See troubleshooting section below if your Volcas are syncing unpredictably.
 
